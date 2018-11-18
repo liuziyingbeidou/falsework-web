@@ -3,11 +3,12 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import JsonFormat from '@/components/JsonFormat'
 import First from '@/components/First'
+import JsonEditor from '@/components/JsonEditor'
 
 Vue.use(Router)
 
 export default new Router({
-	mode: 'history',
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -23,6 +24,11 @@ export default new Router({
     	path: '/jsonformat',
     	name: 'JsonFormat',
     	component: JsonFormat
+    },
+    {
+    	path: '/jsoneditor',
+    	name: 'JsonEditor',
+    	component: JsonEditor
     }
   ]
 })
