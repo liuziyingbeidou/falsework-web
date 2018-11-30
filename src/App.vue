@@ -8,6 +8,9 @@
 </template>
 
 <script>
+
+import VueCodemirror from 'codemirror/lib/codemirror'
+
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
 export default {
